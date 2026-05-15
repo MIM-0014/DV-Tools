@@ -1,0 +1,67 @@
+  [{
+    "id": 1,
+    "name": "Canva Pro",
+    "description": "Professional design tool for social media and presentations.",
+    "price": 12,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "badge-primary",
+    "features": ["Premium templates", "Background remover", "Brand Kit"],
+    "icon": "🎨"
+  },
+  {
+    "id": 2,
+    "name": "Figma Pro",
+    "description": "Collaborative UI/UX design platform.",
+    "price": 15,
+    "period": "monthly",
+    "tag": "Best Seller",
+    "tagType": "badge-secondary",
+    "features": ["Unlimited files", "Team libraries", "Dev mode"],
+    "icon": "🖌️"
+  },
+  {
+    "id": 3,
+    "name": "ChatGPT Plus",
+    "description": "Advanced AI assistant for productivity.",
+    "price": 20,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "badge-accent",
+    "features": ["GPT-5 access", "Fast responses", "Priority access"],
+    "icon": "🤖"
+  },
+  {
+    "id": 4,
+    "name": "Notion AI",
+    "description": "AI-enhanced workspace for notes and docs.",
+    "price": 10,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "badge-primary",
+    "features": ["AI writing", "Database", "Collaboration"],
+    "icon": "📝"
+  },
+   {
+    "id": 5,
+    "name": "Adobe Express",
+    "description": "Quick graphic design and video creation.",
+    "price": 9,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "badge-accent",
+    "features": ["Templates", "Stock assets", "Video editing"],
+    "icon": "📸"
+  },
+  {
+    "id": 6,
+    "name": "Grammarly Premium",
+    "description": "Writing assistant for grammar and tone.",
+    "price": 12,
+    "period": "monthly",
+    "tag": "Best Seller",
+    "tagType": "badge-secondary",
+    "features": ["Grammar checks", "Tone suggestions", "Plagiarism"],
+    "icon": "✍️"
+  }
+]
