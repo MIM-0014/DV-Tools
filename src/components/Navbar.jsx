@@ -17,14 +17,14 @@ const Navbar = ({ cartCount }) => {
 
         {/* Logo */}
         <div className="flex items-center gap-2 flex-shrink-0 cursor-pointer">
-          <div className="bg-purple-500 p-2 rounded-xl text-white shadow-md">
-            <Box size={20} />
-          </div>
+  <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-purple-500 to-cyan-400 flex items-center justify-center shadow-md">
+    <span className="text-white font-bold text-lg">DV</span>
+  </div>
 
-          <h1 className="text-2xl font-bold text-gray-800">
-            DV <span className="text-cyan-500">Tools</span>
-          </h1>
-        </div>
+  <h1 className="text-2xl font-extrabold tracking-tight">
+    <span className="text-gray-900">Tools</span>
+  </h1>
+</div>
 
         {/* Navigation Menu */}
         <ul className="hidden lg:flex items-center gap-10 text-gray-600 font-medium">
