@@ -1,6 +1,6 @@
 // src/components/Navbar.jsx
 
-import { ShoppingCart } from 'lucide-react';
+import { ShoppingCart, Box } from 'lucide-react';
 
 const Navbar = ({ cartCount }) => {
   const navLinks = [
@@ -14,13 +14,17 @@ const Navbar = ({ cartCount }) => {
   return (
     <header className="bg-white border-b-2 border-cyan-300">
       <nav className="max-w-7xl mx-auto px-6 lg:px-10 h-24 flex items-center justify-between">
-        
-       {/* Logo */}
-<div className="flex-shrink-0 text-purple-600">
-  <h1 className="text-2xl font-bold">
-    DV <span className="text-cyan-500">Tools</span>
-  </h1>
-</div>
+
+        {/* Logo */}
+        <div className="flex items-center gap-2 flex-shrink-0 cursor-pointer">
+          <div className="bg-purple-500 p-2 rounded-xl text-white shadow-md">
+            <Box size={20} />
+          </div>
+
+          <h1 className="text-2xl font-bold text-gray-800">
+            DV <span className="text-cyan-500">Tools</span>
+          </h1>
+        </div>
 
         {/* Navigation Menu */}
         <ul className="hidden lg:flex items-center gap-10 text-gray-600 font-medium">
@@ -38,7 +42,7 @@ const Navbar = ({ cartCount }) => {
 
         {/* Right Side */}
         <div className="flex items-center gap-6">
-          
+
           {/* Cart Icon */}
           <div className="relative cursor-pointer">
             <ShoppingCart
