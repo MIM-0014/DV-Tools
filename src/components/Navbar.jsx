@@ -1,6 +1,6 @@
 // src/components/Navbar.jsx
 
-import { ShoppingCart, Box } from 'lucide-react';
+import { ShoppingCart } from 'lucide-react';
 
 const Navbar = ({ cartCount }) => {
   const navLinks = [
@@ -16,12 +16,9 @@ const Navbar = ({ cartCount }) => {
       <nav className="max-w-7xl mx-auto px-6 lg:px-10 h-24 flex items-center justify-between">
 
         {/* Logo */}
-        <div className="flex items-center gap-2 flex-shrink-0 cursor-pointer">
-  <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-purple-500 to-cyan-400 flex items-center justify-center shadow-md">
-    <span className="text-white font-bold text-lg">DV</span>
-  </div>
-
-  <h1 className="text-2xl font-extrabold tracking-tight">
+       <div className="flex items-center flex-shrink-0 cursor-pointer">
+  <h1 className="text-3xl font-black tracking-tight">
+    <span className="text-purple-600">DV</span>
     <span className="text-gray-900">Tools</span>
   </h1>
 </div>
@@ -45,10 +42,7 @@ const Navbar = ({ cartCount }) => {
 
           {/* Cart Icon */}
           <div className="relative cursor-pointer">
-            <ShoppingCart
-              size={22}
-              className="text-gray-600 hover:text-amber-300 transition"
-            />
+            <ShoppingCart size={22} className="text-gray-600 hover:text-amber-300 transition" />
             {cartCount > 0 && (
               <span className="absolute -top-2 -right-2 w-5 h-5 rounded-full bg-indigo-500 text-white text-xs flex items-center justify-center">
                 {cartCount}
