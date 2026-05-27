@@ -1,4 +1,4 @@
-DV Tools
+**DV Tools**
 
 Digital Vault is a modern and responsive web application for managing and securing digital assets.
 It provides a clean UI, fast performance, and a smooth user experience for organizing and accessing data efficiently.
